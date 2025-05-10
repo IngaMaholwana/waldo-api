@@ -1,25 +1,34 @@
-# README
+# Waldo API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The **Waldo API** provides backend data and functionality for the "Where's Waldo" game. It supports managing characters, high scores, and game logic for different difficulty levels (easy, medium, and hard). This API is designed as a Rails API-only application.
 
-Things you may want to cover:
+---
 
-* Ruby version
+## Features
 
-* System dependencies
+- **Character Management**: Create, read, and manage characters for different difficulty levels.
+- **High Scores**: Track and manage high scores for easy, medium, and hard levels.
+- **Game Data**: Serve game-related data for frontend applications.
+- **API-Only**: Lightweight and optimized for API-based interactions.
 
-* Configuration
+---
 
-* Database creation
+## Requirements
 
-* Database initialization
+- **Ruby**: `3.3.5`
+- **Rails**: `8.0`
+- **Database**: PostgreSQL (default configuration)
 
-* How to run the test suite
+---
 
-* Services (job queues, cache servers, search engines, etc.)
+## Setup Instructions
 
-* Deployment instructions
+### 1. Clone the Repository
+```bash
+git clone <repository-url>
+cd waldo_api
+## Start the server
+rails run server
 
-* ...
-# waldo-api
+## testing
+rails test
